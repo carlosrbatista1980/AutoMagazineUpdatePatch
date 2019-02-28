@@ -9,21 +9,42 @@ using System.Security.AccessControl;
 
 namespace AutoMagazineUpdatePatch
 {
+    /* Carlos Rodrigues Batista 01-05-2015
+     * Prezados eu sei que ninguem tem tempo para fazer este patch seguindo as boas práticas mas aqui vai umas dicas.
+     * 
+     * Para saber se um sistema é 64 ou 32bits, basta utilizar o "IntPtr.Size"
+     * if(IntPtr.Size * 8 == 32) "32bits"
+     * if(IntPtr.Size * 8 == 64) "64bits"
+     * 
+     * não precisa usar um metodo "is3264()", a palavra "is" já indica que o método é um boolean, mas vocês fizeram um "void"
+     * ao fazer uma aplicação que vai ler do registro do windows deve-se pedir elevação ao sistema operacional.
+     * 
+     * façam isso :
+     * 
+     * public bool isAdmin()
+     * {
+     *      WindowsIdentity login = WindowsIdentity.GetCurrent();
+            WindowsPrincipal principal = new WindowsPrincipal(login);
+            return principal.IsInRole(WindowsBuiltInRole.Administrator);
+     * }
     
+
+    */
+
     public partial class Form1 : Form
     {
         private GifImage gifImage = null;
         private string filePath = @"loading-gear.gif"; //por enquanto estou utilizando uma imagem externa para fazer a animação junto com a progressBar
         static Random rnd = new Random();
         Color randomcolor = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));       
-        string sUpdatedVersion = "4.4.21b"; //Versão da build
+        string sUpdatedVersion = "4.4.21b"; //Versão da build, vou mudar a versão da build manualmente por causa do tempo.
         LogAMG Log = new LogAMG();
         
         public Form1()
         {
             InitializeComponent();
             FuncoesUtilitarias ofunc = new FuncoesUtilitarias(); // ************* NÃO FAZ NADA -  NÃO MEXER *****************
-            button2.Visible = false; // COLOCAR VISIBLE FALSE
+            button2.Visible = false; //COLOCAR VISIBLE FALSE
             button1.Visible = true;
             gifImage = new GifImage(filePath);
             gifImage.ReverseAtEnd = false; //Não reverter a imagem quando chegar ao final
@@ -88,9 +109,7 @@ namespace AutoMagazineUpdatePatch
         // Oficiais
         
         private void is3264()
-        {
-
-            
+        {            
             //string[] linhas = File.ReadAllLines(sInstallPath32 + "4.1\\Support\\Automagazine.isce");
             try
             {
