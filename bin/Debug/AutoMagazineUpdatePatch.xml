@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoMagazineUpdatePatch</name>
+    </assembly>
+    <members>
+        <member name="F:AutoMagazineUpdatePatch.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoMagazineUpdatePatch.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoMagazineUpdatePatch.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoMagazineUpdatePatch.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.Properties.Resources.AMUpdate">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.Properties.Resources.loading_gear">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.Properties.Resources.loading_gear1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="M:AutoMagazineUpdatePatch.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:AutoMagazineUpdatePatch.FuncoesUtilitarias.GrantAccess(System.String)">
+            <summary>Adiciona permissões (Todos + FullControl) na pasta passada por parâmetro</summary>
+            <param name="fullPath">string fullPath</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:AutoMagazineUpdatePatch.FuncoesUtilitarias.Is64bits">
+            <summary>
+            Checa se o sistema é x86 ou 64 bits, também é definido o caminho da pasta Network.
+            </summary>
+            <returns>boolean</returns>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.FuncoesUtilitarias.ProjectVersionBuild">
+            <summary>Devolve a letra da Build caso exista </summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.FuncoesUtilitarias.ProjectVersion">
+            <summary>Devolve a versão do AutoMagazine, exemplo: 4.4.20</summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.FuncoesUtilitarias.VersaoAtiva">
+            <summary>Devolve a pasta da versão ativa, exemplo: 4.0, 4.1, 4.3, etc... </summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.FuncoesUtilitarias.Versao_do_Windows">
+            <summary>Devolve o nome do produto, exemplo: Windows 7 ultimate edition</summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.FuncoesUtilitarias.Windows_ServicePack">
+            <summary>Devolve o nome do ServicePack</summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.FuncoesUtilitarias.Nome_do_Processador">
+            <summary>Devolve o nome do processador e a quantidade de Nucleos</summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.FuncoesUtilitarias.Nome_do_Computador">
+            <summary>Devolve o nome do computador</summary>
+        </member>
+        <member name="P:AutoMagazineUpdatePatch.FuncoesUtilitarias.NetworkDir">
+            <summary>Devolve a pasta NetworkDir caso o AutoMagazine esteja instalado</summary>
+            <param>parametros do networkdir1</param>
+            <param>parametros do networkdir2</param>
+        </member>
+    </members>
+</doc>

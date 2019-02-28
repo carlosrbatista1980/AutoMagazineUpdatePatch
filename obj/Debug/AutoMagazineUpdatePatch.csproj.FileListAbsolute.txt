@@ -1,0 +1,10 @@
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\bin\Debug\AutoMagazineUpdatePatch.exe.config
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\bin\Debug\AutoMagazineUpdatePatch.xml
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\bin\Debug\AutoMagazineUpdatePatch.exe
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\bin\Debug\AutoMagazineUpdatePatch.pdb
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\obj\Debug\AutoMagazineUpdatePatch.csprojResolveAssemblyReference.cache
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\obj\Debug\AutoMagazineUpdatePatch.Form1.resources
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\obj\Debug\AutoMagazineUpdatePatch.Properties.Resources.resources
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\obj\Debug\AutoMagazineUpdatePatch.csproj.GenerateResource.Cache
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\obj\Debug\AutoMagazineUpdatePatch.exe
+C:\Users\Maxwell\Desktop\Projetos\zzzz Projetos prontos para o git\AutoMagazineUpdatePatch\obj\Debug\AutoMagazineUpdatePatch.pdb
